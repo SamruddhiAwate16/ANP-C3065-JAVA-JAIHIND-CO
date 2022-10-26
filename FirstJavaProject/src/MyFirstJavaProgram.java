@@ -1,9 +1,20 @@
 
-public class MyFirstJavaProgram {
+public class findGreatest {
 
-	public static void main(String[] args) {
+	public static void main(int[] args) {
 		// TODO Auto-generated method stub
-System.out.println("My First Java Program");
+		int a=10, b=20, c=55;
+		if(a>b && b<c) {
+			System.out.println("a is greatest number");
+		}
+		if(a<b && b>c) {
+			system.out.println("B is greatest number");
+		}
+		if(a==b && b==c) {
+			System.out.println("all numbers are same");
+		}
+		else {
+			System.out.println("c is greatest number");
+		
 	}
-
 }
